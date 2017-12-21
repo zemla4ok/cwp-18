@@ -1,0 +1,4 @@
+Tuesday, December 19th 2017, 10:37:50 pm | prefix | LOG | zemla4ok1
+Tuesday, December 19th 2017, 10:37:50 pm | prefix | LOG | zemla4ok2
+Tuesday, December 19th 2017, 10:37:52 pm | prefix | LOG | zemla4ok1
+Tuesday, December 19th 2017, 10:37:52 pm | prefix | LOG | zemla4ok2

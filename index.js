@@ -5,14 +5,12 @@ const FileLogger = require('./file-logger');
 const DeferredFileLogger = require('./deferred-file-logger');
 
 let stream = fs.createWriteStream("file.txt", {flags: 'a', autoClose: true});
-let logger = new Logger();
-let clogger = new ConsoleLogger();
-let flogger = new FileLogger(stream);
-let dflogger = new DeferredFileLogger("defFile.txt");
+let log = new Logger();
+let cLog = new ConsoleLogger();
+let fLog = new FileLogger(stream);
+let defLog = new DeferredFileLogger("defFile.txt");
 
-console.log(logger.format("Hello?"));
-clogger.log("Hello?");
-flogger.log("Hello?");
-//dflogger.log("Hello?");
-//dflogger.log("Hello?");
-//dflogger.log("Hello?");
+console.log(log.format("zemla4ok"));
+cLog.log("zemla4ok");
+fLog.log("zemla4ok");
+defLog.log("zemla4ok1");
